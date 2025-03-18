@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="1__pencil_sketch_conversion.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1_object_detection_red.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

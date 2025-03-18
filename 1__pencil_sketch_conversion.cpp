@@ -28,7 +28,7 @@ cv::Mat ConvertToSketch(cv::Mat& img) {
 	return img_sketch;
 }
 
-int main() {
+int main1__() {
 	cv::Mat img = cv::imread("person1.jpg");
 	if (img.empty()) {
 		std::cerr << "Image load failed!" << std::endl;

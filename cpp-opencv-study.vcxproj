@@ -139,7 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="1_object_detection_red.cpp" />
+    <ClCompile Include="1__pencil_sketch_conversion.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
