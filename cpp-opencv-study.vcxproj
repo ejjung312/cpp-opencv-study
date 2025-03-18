@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="1_object_detection_red.cpp" />
     <ClCompile Include="1__pencil_sketch_conversion.cpp" />
+    <ClCompile Include="2_cartoon_filter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
