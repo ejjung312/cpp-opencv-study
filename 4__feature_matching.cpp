@@ -20,10 +20,12 @@ int main() {
 	orb.get()->detectAndCompute(img2, cv::noArray(), keypoints2, descriptors2);
 
 	// 기술자 간 유사도 계산 객체
-	cv::BFMatcher bf = cv::BFMatcher(cv::NORM_HAMMING, true);
+	//cv::BFMatcher bf = cv::BFMatcher(cv::NORM_HAMMING, true); // 객체를 직접 생성하면 메미로 관리가 복잡해 짐
+	cv::Ptr<cv::BFMatcher> bf = cv::BFMatcher::create(cv::NORM_HAMMING, true); // 스마트 포인터 사용해서 BFMatcher 생성. 자동으로 메모리 관리
 	// 기술자 배열간 매칭
 	std::vector<cv::DMatch> matches;
-	bf.match(descriptors1, descriptors2, matches);
+	//bf.match(descriptors1, descriptors2, matches);
+	bf->match(descriptors1, descriptors2, matches);
 	
 	// 파이썬의 matches = sorted(matches, key=lambda x:x.distance) 변환
 	std::sort(matches.begin(), matches.end(), [](const cv::DMatch& a, const cv::DMatch& b) {
