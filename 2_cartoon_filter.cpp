@@ -9,7 +9,7 @@ double getMedian(cv::Mat& img) {
 	return static_cast<double>(values[values.size() / 2]);
 }
 
-int main() {
+int main2() {
 	cv::Mat frame;
 
 	cv::VideoCapture cap;
