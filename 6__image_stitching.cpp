@@ -25,7 +25,7 @@ void DisplayImage(cv::Mat& pano) {
 	cv::destroyAllWindows();
 }
 
-int main() {
+int main6_1() {
 	cv::Mat img1 = cv::imread("pano1.jpg");
 	cv::Mat img2 = cv::imread("pano2.jpg");
 
