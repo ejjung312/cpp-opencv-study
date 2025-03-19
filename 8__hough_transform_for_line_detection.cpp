@@ -45,7 +45,7 @@ void DetectLines(cv::Mat& image) {
 	cv::destroyAllWindows();
 }
 
-int main() {
+int main8_1() {
 	cv::Mat image = cv::imread("line.jpg");
 
 	DetectLines(image);
