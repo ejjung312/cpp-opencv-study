@@ -30,6 +30,9 @@
     <ClCompile Include="4__feature_matching.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5__image_segmentation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

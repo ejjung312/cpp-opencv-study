@@ -1,6 +1,6 @@
 #include <opencv2/opencv.hpp>
 
-int main() {
+int main4_() {
 	/*
 	* 이미지 특징점
 	* - 이미지에서 고유한 패턴이나 구조를 가지며 다른 부분과 구별가능한 특징점인 지점(feature points)을 찾아냄
