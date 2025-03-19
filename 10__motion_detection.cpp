@@ -1,6 +1,6 @@
 #include <opencv2/opencv.hpp>
 
-int main() {
+int main10_1() {
 	cv::Mat frame;
 	cv::VideoCapture cap;
 
