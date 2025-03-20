@@ -48,6 +48,9 @@
     <ClCompile Include="11__document_aligner.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="12__live_video_augmentation.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

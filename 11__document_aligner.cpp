@@ -54,7 +54,7 @@ cv::Mat RotateDocument(cv::Mat& image) {
 	return rotated;
 }
 
-int main() {
+int main11_() {
 	cv::Mat image = cv::imread("document.png");
 
 	cv::Mat aligned_image = RotateDocument(image);
