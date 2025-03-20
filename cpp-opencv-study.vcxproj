@@ -148,6 +148,7 @@
     <ClCompile Include="18__cartoonification_of_image.cpp" />
     <ClCompile Include="1_object_detection_red.cpp" />
     <ClCompile Include="1__pencil_sketch_conversion.cpp" />
+    <ClCompile Include="21__invisible_cloak.cpp" />
     <ClCompile Include="2_cartoon_filter.cpp" />
     <ClCompile Include="3_sketch_filter.cpp" />
     <ClCompile Include="4__feature_matching.cpp" />

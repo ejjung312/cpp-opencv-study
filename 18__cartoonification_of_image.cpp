@@ -27,7 +27,7 @@ cv::Mat CartoonifyImage(const cv::Mat& img) {
 	return cartoon;
 }
 
-int main() {
+int main18_() {
 	cv::Mat img = cv::imread("person1.jpg");
 
 	cv::Mat cartoon = CartoonifyImage(img);
