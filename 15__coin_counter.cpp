@@ -1,6 +1,6 @@
 #include <opencv2/opencv.hpp>
 
-int main() {
+int main15_() {
 	cv::Mat frame = cv::imread("coin1.jpg");
 
 	cv::Mat gray;

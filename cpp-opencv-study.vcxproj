@@ -145,6 +145,7 @@
     <ClCompile Include="14__background_subtraction.cpp" />
     <ClCompile Include="15__coin_counter.cpp" />
     <ClCompile Include="17__face_detection.cpp" />
+    <ClCompile Include="18__cartoonification_of_image.cpp" />
     <ClCompile Include="1_object_detection_red.cpp" />
     <ClCompile Include="1__pencil_sketch_conversion.cpp" />
     <ClCompile Include="2_cartoon_filter.cpp" />

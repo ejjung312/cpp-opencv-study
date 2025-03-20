@@ -60,6 +60,9 @@
     <ClCompile Include="17__face_detection.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="18__cartoonification_of_image.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">

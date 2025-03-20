@@ -1,6 +1,6 @@
 #include <opencv2/opencv.hpp>
 
-int main() {
+int main17_() {
 	cv::Mat frame;
 	cv::VideoCapture cap("person4.mp4");
 	if (!cap.isOpened()) {
