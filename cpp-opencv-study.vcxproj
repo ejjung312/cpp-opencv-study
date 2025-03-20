@@ -142,6 +142,7 @@
     <ClCompile Include="10__motion_detection.cpp" />
     <ClCompile Include="11__document_aligner.cpp" />
     <ClCompile Include="12__live_video_augmentation.cpp" />
+    <ClCompile Include="14__background_subtraction.cpp" />
     <ClCompile Include="1_object_detection_red.cpp" />
     <ClCompile Include="1__pencil_sketch_conversion.cpp" />
     <ClCompile Include="2_cartoon_filter.cpp" />

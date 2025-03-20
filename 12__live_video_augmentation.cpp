@@ -22,7 +22,7 @@ void AdjustBrightness(cv::Mat& frame) {
 	cv::convertScaleAbs(frame, frame, 1);
 }
 
-int main() {
+int main12_() {
 	cv::Mat frame;
 	cv::VideoCapture cap;
 
